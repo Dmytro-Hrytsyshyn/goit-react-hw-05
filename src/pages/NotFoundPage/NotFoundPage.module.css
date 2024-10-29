@@ -1,0 +1,29 @@
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.errorTitle {
+  font-size: 96px;
+  color: red;
+  margin: 0;
+}
+
+.errorMessage {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.backHomeButton {
+  padding: 12px 24px;
+  background-color: #1dc9d5;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
